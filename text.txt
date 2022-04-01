@@ -1,0 +1,59 @@
+bert_lstm
+TRAIN:  Pre. 0.801 | Rec. 0.822 | F1 0.809
+EVAL:   Pre. 0.671 | Rec. 0.702 | F1 0.683
+TEST:   Pre. 0.646 | Rec. 0.656 | F1 0.648
+
+bert
+TRAIN:  Pre. 0.747 | Rec. 0.765 | F1 0.755
+EVAL:   Pre. 0.661 | Rec. 0.689 | F1 0.673
+TEST:   Pre. 0.646 | Rec. 0.657 | F1 0.651
+
+TRAIN:  Pre. 0.809 | Rec. 0.834 | F1 0.820
+EVAL:   Pre. 0.674 | Rec. 0.710 | F1 0.688
+TEST:   Pre. 0.657 | Rec. 0.669 | F1 0.662
+
+随机种子
+现能保证每次结果一致
+TRAIN:  Pre. 0.759 | Rec. 0.781 | F1 0.768
+EVAL:   Pre. 0.673 | Rec. 0.704 | F1 0.686
+TEST:   Pre. 0.652 | Rec. 0.667 | F1 0.658
+
+
+TRAIN:  Pre. 0.759 | Rec. 0.781 | F1 0.768
+EVAL:   Pre. 0.673 | Rec. 0.704 | F1 0.686
+TEST:   Pre. 0.652 | Rec. 0.667 | F1 0.658
+
+bert_lstm:seed=42
+TRAIN:  Pre. 0.836 | Rec. 0.854 | F1 0.844
+EVAL:   Pre. 0.670 | Rec. 0.692 | F1 0.680
+TEST:   Pre. 0.648 | Rec. 0.653 | F1 0.650
+
+
+bert_lstm:seed=2019
+TRAIN:  Pre. 0.818 | Rec. 0.851 | F1 0.833
+EVAL:   Pre. 0.665 | Rec. 0.703 | F1 0.679
+TEST:   Pre. 0.652 | Rec. 0.671 | F1 0.660
+
+bert_lstm:len128
+TRAIN:  Pre. 0.783 | Rec. 0.790 | F1 0.786
+EVAL:   Pre. 0.673 | Rec. 0.689 | F1 0.680
+TEST:   Pre. 0.658 | Rec. 0.657 | F1 0.657
+
+bert_len128
+TRAIN:  Pre. 0.795 | Rec. 0.789 | F1 0.791
+EVAL:   Pre. 0.685 | Rec. 0.687 | F1 0.684
+TEST:   Pre. 0.671 | Rec. 0.655 | F1 0.661
+长度太长效果不好，判断最长的文本长度
+
+
+换新的数据集：单个立场标签
+Inference:
+
+TRAIN:  Pre. 0.784 | Rec. 0.791 | F1 0.786
+EVAL:   Pre. 0.683 | Rec. 0.698 | F1 0.689
+TEST:   Pre. 0.669 | Rec. 0.669 | F1 0.667
+
+
+TRAIN:  Pre. 0.774 | Rec. 0.791 | F1 0.781
+EVAL:   Pre. 0.668 | Rec. 0.697 | F1 0.680
+TEST:   Pre. 0.660 | Rec. 0.671 | F1 0.665
